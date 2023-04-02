@@ -9,7 +9,7 @@ sentences = [
     'This world is so dramatic'
 ]
 
-tokenizer = Tokenizer(num_words = 100)
+tokenizer = Tokenizer(num_words=100)
 tokenizer.fit_on_texts(sentences)
 word_index = tokenizer.word_index
 print(word_index)
